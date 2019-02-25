@@ -11,7 +11,7 @@
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
       
-        <link rel="canonical" href="https://vinkrish.github.io/statistics-probability/Intro/bar-charts/">
+        <link rel="canonical" href="https://vinkrish.github.io/statistics-probability/Intro/prabability/">
       
       
         <meta name="author" content="Vinay Krishna">
@@ -40,7 +40,7 @@
     
     
       
-        <title>Bar Charts - Statistics & Probability</title>
+        <title>Probability - Statistics & Probability</title>
       
     
     
@@ -98,7 +98,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#histogram" tabindex="1" class="md-skip">
+      <a href="#if-we-change-probability-of-the-flip-so-that" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -123,7 +123,7 @@
               Statistics & Probability
             </span>
             <span class="md-header-nav__topic">
-              Bar Charts
+              Probability
             </span>
           
         </div>
@@ -300,45 +300,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Bar Charts
-      </label>
-    
-    <a href="./" title="Bar Charts" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../bar-charts/" title="Bar Charts" class="md-nav__link">
       Bar Charts
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#histogram" title="Histogram" class="md-nav__link">
-    Histogram
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -358,11 +324,45 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../prabability/" title="Probability" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Probability
+      </label>
+    
+    <a href="./" title="Probability" class="md-nav__link md-nav__link--active">
       Probability
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#if-we-change-probability-of-the-flip-so-that" title="If we change probability of the flip so that" class="md-nav__link">
+    If we change probability of the flip so that
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -390,8 +390,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#histogram" title="Histogram" class="md-nav__link">
-    Histogram
+  <a href="#if-we-change-probability-of-the-flip-so-that" title="If we change probability of the flip so that" class="md-nav__link">
+    If we change probability of the flip so that
   </a>
   
 </li>
@@ -412,56 +412,257 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/vinkrish/statistics-probability/edit/master/docs/Intro/bar-charts.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/vinkrish/statistics-probability/edit/master/docs/Intro/prabability.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                  <h1>Bar Charts</h1>
+                  <h1>Probability</h1>
                 
-                <p>Bar chart is a common statistical data visualization tool.</p>
-<p>The deviations from linear graph is called <strong>"noise"</strong>. Now, noise might not be the best term, but it's the term that statisticians use. </p>
-<p>In our case:</p>
-<ul>
-<li>It might be that one of them has a great view.</li>
-<li>The next one has an old house.</li>
-<li>One has coastal access, which makes it more expensive.</li>
-<li>One really requires a new kitchen.</li>
-</ul>
-<p>There might be factors that really effect the house price beyond the size.
-But if those factors are unincluded, to a statistician that's called <strong>"random noise"</strong>.
-Let's talk about bar charts as one way to alleviate the problem.</p>
-<p><img alt="Bar Chart" src="../../Images/bar-chart.jpg" /></p>
-<p>In a bar chart, we take our raw data and pull it together. For example, we might say all the data that falls into interval should be summarized by a single value. Such a value would lie halfway in between two data points and form what's called a <strong>bar</strong>.</p>
-<p><strong>What is the height in terms of the dollar figure for the very first bar?</strong><br />
-It's the halfway point between 88,000 and 72,000, which is 80,000.</p>
-<p>For two points that fall into the third bar. The mean value here is 105,000.</p>
-<p>If you look at the bar graph, what you'll find is it's a much finer representation of the data.
-By pooling together multiple data points into an individual bar, you can see that there is a much better way to really understand the dependence of cost to data. While the bar doesn't give you the linear relationship -  in fact, in this case, happens to be nonlinear - it really gives you a sense as you go up in house sizes the cost increases, which wasn't obvious from looking at the individual data points.</p>
-<p>What the bar chart does is it really helps you to pool together groups of data into a single bar and understand <strong>global trends</strong>. Such global trends might not be that important if you only have six data points, but imagine you have 60,000. With 60,000 data points if you go look at this scatter plot, the individual data tells you very little, jumping in x parameter by a tiny bit might make a jump in y. Yet a bar graph can really help you understand the data. Clearly, one of the things that a statistician does is to use <strong>cumulative tools</strong>, such as bar graphs, to gain an understanding of the underlying data.</p>
-<h2 id="histogram">Histogram</h2>
-<p>I want to talk briefly about histograms as a special case of a bar chart. The key difference is whereas the bar charts we discussed so far were defined over 2D data, the histograms look at 1D data. That is, there is only one dimension of data that is being plotted.</p>
-<p>Let me start with an example. Here is a fictitious data set about annual income. Suppose at some company I asked software engineers how much annual income they make. Again, this data set is contrived. Of the nine people I asked, here is the survey of different annual salaries.</p>
-<p><img alt="Histogram" src="../../Images/histogram.jpg" /></p>
-<p>In the histogram case, I make a bar chart that concerns itself with only one thing, which is called <strong>"frequency"</strong>, which is short for <strong>"count"</strong>, that will group these salaries into three different buckets - from $120,000 on, $130,000 on, and $140,000 on.</p>
-<p>What the bar chart plots is the frequency at which people asked fall into the different categories.</p>
+                <p>Probability is just the opposite of statistics. Put differently, in statistics we are given data and try to infer possible causes that relate to the data, whereas in probability we are given the description of the causes and we'd like to predict the data.</p>
+<p>Let's talk about a fair coin. The probability of the coin coming up heads is written in this P notation. This reads probability of the coin coming up heads. And in a fair coin, the chances are 50%. That is, in half the coin flips, the coin should come up heads. In probability we often write 0.5, which is half of 1. </p>
+<p>So a probability of 1 means it always occurs. A probability of 0.5 means it occurs half the time.</p>
+<p><strong>What's the probability of observing heads and heads if you flip the same unbiased coin twice?</strong>
+$$P(H) = 0.5$$
+$$P(T) = 0.5$$
+$$P(H, H) = ?$$
+$$P(H, H) = P(H) * P(H)$$
+$$P(H, H) = 0.5 * 0.5 = 0.25$$</p>
+<p><strong>Truth Table</strong></p>
 <table>
 <thead>
 <tr>
-<th>Income</th>
-<th>Frequency</th>
+<th>Flip 1</th>
+<th>Flip 2</th>
+<th>Probability</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>120000 - 130000</td>
-<td>5</td>
+<td>H</td>
+<td>H</td>
+<td>0.25</td>
 </tr>
 <tr>
-<td>130000 - 140000</td>
-<td>2</td>
+<td>H</td>
+<td>T</td>
+<td>0.25</td>
+</tr>
+<tr>
+<td>T</td>
+<td>H</td>
+<td>0.25</td>
+</tr>
+<tr>
+<td>T</td>
+<td>T</td>
+<td>0.25</td>
 </tr>
 </tbody>
 </table>
-<p>Now, this histogram differs from the bar chart in that the vertical axis is just a frequency count whereas before it might have been a median home sales value. In 1-dimensional data sets that are numerical, this could be informative. You can say, for example the majority of workers in this company are in this salary bracket where as a much smaller number are in higher salary brackets.</p>
+<p>The truth table gets more interesting when we ask different questions. Suppose we flip our coin twice. What we care about is that exactly one of the two things is heads, and thereby exactly the other one is tails. For a fair coin, what do you think the probability would be that if I flip it twice we would see heads exactly once?</p>
+<p>$$P(exactly one H) = 0.5(sum of 2nd &amp; 3rd case)$$</p>
+<p>I take a fair coin and flip it 3 times, and I want to know the probability that exactly 1 of those 3 flips comes up heads.</p>
+<table>
+<thead>
+<tr>
+<th>Flip 1</th>
+<th>Flip 2</th>
+<th>Flip 3</th>
+<th>Probability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H</td>
+<td>H</td>
+<td>H</td>
+<td>1/8</td>
+</tr>
+<tr>
+<td>H</td>
+<td>T</td>
+<td>H</td>
+<td>1/8</td>
+</tr>
+<tr>
+<td>T</td>
+<td>H</td>
+<td>H</td>
+<td>1/8</td>
+</tr>
+<tr>
+<td>T</td>
+<td>T</td>
+<td>H</td>
+<td>1/8</td>
+</tr>
+<tr>
+<td>H</td>
+<td>H</td>
+<td>T</td>
+<td>1/8</td>
+</tr>
+<tr>
+<td>H</td>
+<td>T</td>
+<td>T</td>
+<td>1/8</td>
+</tr>
+<tr>
+<td>T</td>
+<td>H</td>
+<td>T</td>
+<td>1/8</td>
+</tr>
+<tr>
+<td>T</td>
+<td>T</td>
+<td>T</td>
+<td>1/8</td>
+</tr>
+</tbody>
+</table>
+<p>$$P(exactly one H in 3 flips) = 3 * \frac{1}{8} = 0.375$$</p>
+<hr />
+<h3 id="if-we-change-probability-of-the-flip-so-that">If we change probability of the flip so that</h3>
+<p>$$P(H) = 0.6$$
+$$P(T) = 0.4$$</p>
+<p><strong>Truth Table</strong></p>
+<table>
+<thead>
+<tr>
+<th>Flip 1</th>
+<th>Flip 2</th>
+<th>Probability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H</td>
+<td>H</td>
+<td>0.36</td>
+</tr>
+<tr>
+<td>H</td>
+<td>T</td>
+<td>0.24</td>
+</tr>
+<tr>
+<td>T</td>
+<td>H</td>
+<td>0.24</td>
+</tr>
+<tr>
+<td>T</td>
+<td>T</td>
+<td>0.16</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Flip 1</th>
+<th>Flip 2</th>
+<th>Flip 3</th>
+<th>Probability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H</td>
+<td>H</td>
+<td>H</td>
+<td>-</td>
+</tr>
+<tr>
+<td>H</td>
+<td>T</td>
+<td>H</td>
+<td>-</td>
+</tr>
+<tr>
+<td>T</td>
+<td>H</td>
+<td>H</td>
+<td>-</td>
+</tr>
+<tr>
+<td>T</td>
+<td>T</td>
+<td>H</td>
+<td>0.096</td>
+</tr>
+<tr>
+<td>H</td>
+<td>H</td>
+<td>T</td>
+<td>-</td>
+</tr>
+<tr>
+<td>H</td>
+<td>T</td>
+<td>T</td>
+<td>0.096</td>
+</tr>
+<tr>
+<td>T</td>
+<td>H</td>
+<td>T</td>
+<td>0.096</td>
+</tr>
+<tr>
+<td>T</td>
+<td>T</td>
+<td>T</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<p>$$P(exactly one H in 3 flips) = 3 * 0.096 = 0.288$$</p>
+<p>Suppose we throw a fair die twice. What do you think the probability of a double is?
+Double means both outcomes are identical with the same number regardless of what that number is.</p>
+<table>
+<thead>
+<tr>
+<th>Throw-1</th>
+<th>Throw-2</th>
+<th>Probability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1/36</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2</td>
+<td>1/36</td>
+</tr>
+<tr>
+<td>3</td>
+<td>3</td>
+<td>1/36</td>
+</tr>
+<tr>
+<td>4</td>
+<td>4</td>
+<td>1/36</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5</td>
+<td>1/36</td>
+</tr>
+<tr>
+<td>6</td>
+<td>6</td>
+<td>1/36</td>
+</tr>
+</tbody>
+</table>
+<p>$$P(Double) = 6 * \frac{1}{36}= 0.1667$$</p>
                 
                   
                 
@@ -482,7 +683,7 @@ By pooling together multiple data points into an individual bar, you can see tha
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../scatter-plots/" title="Scatter Plots" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../pie-charts/" title="Pie Charts" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -491,25 +692,11 @@ By pooling together multiple data points into an individual bar, you can see tha
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Scatter Plots
-              </span>
-            </div>
-          </a>
-        
-        
-          <a href="../pie-charts/" title="Pie Charts" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
                 Pie Charts
               </span>
             </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
           </a>
+        
         
       </nav>
     </div>
