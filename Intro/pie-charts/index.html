@@ -11,7 +11,7 @@
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       
       
-        <link rel="canonical" href="https://vinkrish.github.io/statistics-probability/Intro/looking-at-data/">
+        <link rel="canonical" href="https://vinkrish.github.io/statistics-probability/Intro/pie-charts/">
       
       
         <meta name="author" content="Vinay Krishna">
@@ -40,7 +40,7 @@
     
     
       
-        <title>Looking at Data - Statistics & Probability</title>
+        <title>Pie Charts - Statistics & Probability</title>
       
     
     
@@ -98,6 +98,10 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
+      <a href="#relative-data" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -119,7 +123,7 @@
               Statistics & Probability
             </span>
             <span class="md-header-nav__topic">
-              Looking at Data
+              Pie Charts
             </span>
           
         </div>
@@ -272,18 +276,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-    <a href="./" title="Looking at Data" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../looking-at-data/" title="Looking at Data" class="md-nav__link">
       Looking at Data
     </a>
-    
   </li>
 
         
@@ -315,11 +312,45 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../pie-charts/" title="Pie Charts" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Pie Charts
+      </label>
+    
+    <a href="./" title="Pie Charts" class="md-nav__link md-nav__link--active">
       Pie Charts
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#relative-data" title="Relative Data" class="md-nav__link">
+    Relative Data
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -335,68 +366,142 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#relative-data" title="Relative Data" class="md-nav__link">
+    Relative Data
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/vinkrish/statistics-probability/edit/master/docs/Intro/looking-at-data.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/vinkrish/statistics-probability/edit/master/docs/Intro/pie-charts.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                  <h1>Looking at Data</h1>
+                  <h1>Pie Charts</h1>
                 
-                <p>The world is full of data, and we the people have to make decisions.</p>
-<p><strong>Statistics</strong> comes to our rescue - it takes data and turns it into information that we the people can use to make decisions. Whether you are in social sciences, medicine, engineering, public policy,
-psychology, climatology, robotics, even archaeology, health sciences,
-finance, business and marketing, or pretty much any other discipline that you can study. All of those are now driven by data, including unlikely fields like biology or physics
-and so many others.</p>
-<p>One of the standard problems that people study in statistics has to do with purchasing decisions. Suppose you wish to buy a house - there are small houses and big houses, but you really like this one special house build by a famous designer which has a certain price.</p>
-<p>In statistics, the way we find out is by looking at data. Let's assume there is a database of previous house sales of homes in the same neighborhood. Just for simplicity, let's assume we know about two things -
-the size of the home and the cost at which it was sold.</p>
+                <p>In statistics you use pie charts to visualize data, specifically relative data.</p>
+<p>Now, I said that pie charts are good for relative data. To illustrate this, suppose party A got 724,000 votes
+and party B got 181,000 votes.</p>
+<p><strong>What is the percentage of votes that party A got?</strong>
+$$\frac{724,000}{724,000 + 181,000} = \frac{724,000}{905,000} = 0.8$$</p>
+<p><strong>What's the percentage of votes for party B?</strong>
+$$\frac{181,000}{724,000 + 181,000} = \frac{181,000}{905,000} = 0.2$$</p>
 <table>
 <thead>
 <tr>
-<th>Size (sq.ft)</th>
-<th>Cost ($)</th>
+<th>Party</th>
+<th>Votes</th>
+<th>Percentage</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>1400</td>
-<td>112000</td>
+<td>A</td>
+<td>724,000</td>
+<td>80</td>
 </tr>
 <tr>
-<td>2400</td>
-<td>192000</td>
-</tr>
-<tr>
-<td>1800</td>
-<td>144000</td>
-</tr>
-<tr>
-<td>1900</td>
-<td>152000</td>
-</tr>
-<tr>
-<td>1300</td>
-<td>104000</td>
-</tr>
-<tr>
-<td>1100</td>
-<td>88000</td>
+<td>B</td>
+<td>181,000</td>
+<td>20</td>
 </tr>
 </tbody>
 </table>
-<p>It turns out that this data set has this amazing property that the cost per square foot is constant.</p>
-<p>$$\frac{112000}{1400} = 80$ /sq.ft$$</p>
-<p><strong>How much money should you expect to pay if you're trying to purchase a house with 2100 &amp; 1500 sq.ft?</strong></p>
-<p>$$\frac{144000 + 192000}{2} = 168000$$</p>
-<p>2100 is just halfway between 1800 and 2400. If you take halfway between $144,000 and $192,000 - we get the mean of 144,000 and 192,000 and that is $168,000.</p>
-<p>$$112000+\frac{144000 - 112000}{4} = 120000$$</p>
-<p>By our logic, 1500 lies between 1400 and 1800. In fact, it's a quarter away from 1400.
-We'd say it's $112,000 plus 1/4 of the way from 1400 to 1800.</p>
-<p>But as we go forward, we're going to look into data where the cost might not just be
-a constant factor times the size of a home.</p>
+<h3 id="relative-data">Relative Data</h3>
+<p>Given that we have a pie chart with distribution 80% and 20%, I'm now changing the total number of voter. I'm telling you there were 23,000 people voting for party B, and I'm asking you how many voted for party A such that the pie chart is exactly the correct one with an 80 to 20 distribution.</p>
+<table>
+<thead>
+<tr>
+<th>Party</th>
+<th>Votes</th>
+<th>Percentage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>?</td>
+<td>80</td>
+</tr>
+<tr>
+<td>B</td>
+<td>23,000</td>
+<td>20</td>
+</tr>
+</tbody>
+</table>
+<p>$$\frac{23,000}{20} * 80 = 23000 * 4 = 92,000$$</p>
+<p><img alt="Pie Chart" src="../../Images/pie-chart-1.png" /></p>
+<p>What's remarkable about this chart is it's <strong>invariant</strong> to the total number of votes. What it really depicts is the relative number of votes. It shows that A got many, many more votes than B. It shows it graphically, so you can see this without even studying the numbers.</p>
+<p><strong>Another Example:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Party</th>
+<th>Votes</th>
+<th>%</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>175,000</td>
+<td>7/12</td>
+</tr>
+<tr>
+<td>B</td>
+<td>50,000</td>
+<td>2/12</td>
+</tr>
+<tr>
+<td>C</td>
+<td>25,000</td>
+<td>1/12</td>
+</tr>
+<tr>
+<td>D</td>
+<td>50,000</td>
+<td>2/12</td>
+</tr>
+</tbody>
+</table>
+<p>As a final question, I will now tell you that in a different election where the same pie chart is correct we had a total of 240,000 voters, which is the sum of all votes cast. Assuming that this pie chart here is correct, can you tell me how many votes are cast for each of the parties?</p>
+<p>We know that 1/12 is 20,000.</p>
+<ul>
+<li>So A got 140,000, which is 7 times 20,000.  </li>
+<li>Party B got 2/12 or a 6th, which is 40,000.  </li>
+<li>Party C - a disappointing 20,000.  </li>
+<li>And party D the same as party B.</li>
+</ul>
+<p><img alt="Pie Chart" src="../../Images/pie-chart-2.jpg" /></p>
+<p>If we look at the diagram, it tell you nothing about the absolute numbers. In fact, I can change the absolute numbers. As long as the relative percentages stay the same, it does however tell you a lot about the distribution of the data. It shows you that A is the dominant party that got more than 50% of the outcome whereas B, C, and D occupies smaller slices with a slice for C being half the size of B or D, respectively.</p>
+<p>Again, this is called a pie chart. Pie charts are really, really powerful to represent things like election outcomes.</p>
                 
                   
                 
@@ -417,7 +522,7 @@ a constant factor times the size of a home.</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../teaser/" title="Teaser" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../bar-charts/" title="Bar Charts" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -426,25 +531,11 @@ a constant factor times the size of a home.</p>
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Teaser
+                Bar Charts
               </span>
             </div>
           </a>
         
-        
-          <a href="../scatter-plots/" title="Scatter Plots" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                Scatter Plots
-              </span>
-            </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
-          </a>
         
       </nav>
     </div>
