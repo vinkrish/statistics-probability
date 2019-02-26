@@ -1,4 +1,32 @@
 site_name: Statistics & Probability
 site_author: 'Vinay Krishna'
+site_url: 'https://vinkrish.github.io/statistics-probability/'
 theme:
   name: 'material'
+
+# Repository
+repo_name: 'vinkrish/statistics-probability'
+repo_url: 'https://github.com/vinkrish/statistics-probability'
+
+# Customization
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/vinkrish'
+
+extra_javascript:
+  # Add MathJax support
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'
+  
+# Navigation
+nav:
+  - About: index.md
+  - Intro to Statistics:
+    - Teaser: Intro/teaser.md
+    - Looking at Data: Intro/looking-at-data.md
+    - Scatter Plots: Intro/scatter-plots.md
+    - Bar Charts: Intro/bar-charts.md
+    - Pie Charts: Intro/pie-charts.md
+    - Probability: Intro/prabability.md
+    - Conditional Probability: Intro/conditional-probability.md
+    - Bayes Rule: Intro/bayes-rule.md
